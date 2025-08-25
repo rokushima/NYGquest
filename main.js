@@ -57,10 +57,6 @@ function valueChange(){
 }
 function hint1(){
     if(element.value=="place1"){
-        $('.quiz-img').attr("src","images/image1.png");
-        $('.quiz-txt').text("");
-        check1 = document.getElementById("check1");
-        check1.addEventListener('change', valueChange);
         if (check1.checked){
             $('.hint1-img').attr("src","images/image1_1.png");
             $('.hint2').append("<label><input type='checkbox' id='check2' name='check'/>ヒント2</label>");
