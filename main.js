@@ -67,7 +67,6 @@ function hint1(){
             check1 = document.getElementById("check2");
             check2.addEventListener('change', valueChange);
         }else{
-            $('.hint1').append("<label><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
             $('.hint1-img').attr("src","");
             $('.check2').remove();
         }
