@@ -6,10 +6,27 @@ li {
   list-style: none;
 }
 
+
+
+@media screen and (max-width: 768px) {
+    div.header {
+        background-color: #f0f0f0;
+        color: #fff;
+        height: 200px;
+    }
+}
+ 
+@media screen and (max-width: 480px) {
+    div.header {
+        background-color: #f0f0f0;
+        color: #fff;
+        height: 150px;
+    }
+}
 div.header {
-  background-color: #f0f0f0;
-  color: #fff;
-  height: 250px;
+    background-color: #f0f0f0;
+    color: #fff;
+    height: 250px;
 }
 
 img.header-logo {
