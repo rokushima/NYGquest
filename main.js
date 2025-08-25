@@ -2,6 +2,15 @@ function valueChange(){
     if(element.value=="place1"){
         $('.quiz-img').attr("src","images/image1.png");
         $('.quiz-txt').text("");
+        $('hint1').aplpend("<<label><input type="checkbox" id="check1" name="check" checked/>ヒント1</label>>")
+        check1 = document.getElementById("check1");
+        check1.addEventListener('change', valueChange);
+        if (check1.checked){
+            $('.hint1-img').attr("src","images/image1_1.png");
+            $('hint2').aplpend("<<label><input type="checkbox" id="check2" name="check" checked/>ヒント1</label>>")
+            check1 = document.getElementById("check2");
+            check2.addEventListener('change', valueChange);
+        }
     }else if(element.value=="place2"){
         $('.quiz-img').attr("src","");
         $('.quiz-txt').text("ここには何も無いようだ");
@@ -54,3 +63,7 @@ function valueChange(){
 }
 let element = document.getElementById('place');
 element.addEventListener('change', valueChange);
+let check1 = document.getElementById("check1");
+let check2 = document.getElementById("check2");
+
+
