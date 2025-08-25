@@ -7,9 +7,12 @@ function valueChange(){
         check1.addEventListener('change', valueChange);
         if (check1.checked){
             $('.hint1-img').attr("src","images/image1_1.png");
-            $('hint2').append("<label><input type='checkbox' id='check2' name='check' checked/>ヒント1</label>");
+            $('hint2').append("<label><input type='checkbox' id='check2' name='check' checked/>ヒント2</label>");
             check1 = document.getElementById("check2");
             check2.addEventListener('change', valueChange);
+        }else{
+            $('.hint1-img').attr("src","");
+            $('check2').remove();
         }
     }else if(element.value=="place2"){
         $('.quiz-img').attr("src","");
