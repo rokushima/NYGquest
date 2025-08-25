@@ -3,3 +3,4 @@ description: NYGquest
 author: RokushimaDaichi
 theme: minima
 url: "https://NYGquest.github.io"
+baseurl: ""
