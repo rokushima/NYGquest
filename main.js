@@ -4,7 +4,7 @@ function valueChange(){
         $('.quiz-txt').text("");
         $('.hint1').append("<label><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
         check1 = document.getElementById("check1");
-        check1.addEventListener('change', valueChange);
+        check1.addEventListener('change', hint1);
     }else if(element.value=="place2"){
         $('.quiz-img').attr("src","");
         $('.quiz-txt').text("ここには何も無いようだ");
