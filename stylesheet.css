@@ -7,12 +7,18 @@ li {
 }
 
 
-
+@media screen and (min-width: 769px) {
+    div.header {
+        background-color: #f0f0f0;
+        color: #fff;
+        height: 260px;
+    }
+}
 @media screen and (max-width: 768px) {
     div.header {
         background-color: #f0f0f0;
         color: #fff;
-        height: 200px;
+        height: 180px;
     }
 }
  
@@ -20,14 +26,10 @@ li {
     div.header {
         background-color: #f0f0f0;
         color: #fff;
-        height: 100px;
+        height: 60px;
     }
 }
-div.header {
-    background-color: #f0f0f0;
-    color: #fff;
-    height: 280px;
-}
+
 
 img.header-logo {
     margin: auto;
