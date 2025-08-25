@@ -59,9 +59,9 @@ function hint1(){
     if(element.value=="place1"){
         if (check1.checked){
             $('.hint1-img').attr("src","images/image1_1.png");
-            $('.hint2').append("<label><input type='checkbox' id='check2' name='check'/>ヒント2</label>");
-            check1 = document.getElementById("check2");
-            check2.addEventListener('change', valueChange);
+            $('.hint2').append("<label><input type='checkbox' class='check2' id='check2' name='check'/>ヒント2</label>");
+            check2 = document.getElementById("check2");
+            check2.addEventListener('change', hint2);
         }else{
             $('.hint1-img').attr("src","");
             $('.check2').remove();
