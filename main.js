@@ -15,7 +15,7 @@ function valueChange(){
         $('.quiz-img').attr("src","");
         $('.quiz-txt').text("ここには何も無いようだ");
     }else if(element.value=="place3"){
-        $('.quiz-img').attr("src","images/image3png");
+        $('.quiz-img').attr("src","images/image3.png");
         $('.quiz-txt').text("");
     }else if(element.value=="place4"){
         $('.quiz-img').attr("src","images/image4.png");
