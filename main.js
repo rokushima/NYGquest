@@ -2,12 +2,12 @@ function valueChange(){
     if(element.value=="place1"){
         $('.quiz-img').attr("src","images/image1.png");
         $('.quiz-txt').text("");
-        $('.hint1').append("<label><input type='checkbox' id='check1' name='check' checked/>ヒント1</label>")
+        $('.hint1').append("<label><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
         check1 = document.getElementById("check1");
         check1.addEventListener('change', valueChange);
         if (check1.checked){
             $('.hint1-img').attr("src","images/image1_1.png");
-            $('.hint2').append("<label><input type='checkbox' id='check2' name='check' checked/>ヒント2</label>");
+            $('.hint2').append("<label><input type='checkbox' id='check2' name='check'/>ヒント2</label>");
             check1 = document.getElementById("check2");
             check2.addEventListener('change', valueChange);
         }else{
