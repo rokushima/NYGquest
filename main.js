@@ -2,7 +2,7 @@ function valueChange(){
     if(element.value=="place1"){
         $('.quiz-img').attr("src","images/image1.png");
         $('.quiz-txt').text("");
-        $('hint1').aplpend("<<label><input type="checkbox" id="check1" name="check" checked/>ヒント1</label>>")
+        $('hint1').aplpend("<<label><input type='checkbox' id='check1' name='check' checked/>ヒント1</label>>")
         check1 = document.getElementById("check1");
         check1.addEventListener('change', valueChange);
         if (check1.checked){
