@@ -2,7 +2,7 @@ function valueChange(){
     if(element.value=="place1"){
         $('.quiz-img').attr("src","images/image1.png");
         $('.quiz-txt').text("");
-        $('.hint1').append("<label　class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
+        $('.hint1').before("<label　class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
         check1 = document.getElementById("check1");
         check1.addEventListener('change', hint1);
     }else if(element.value=="place2"){
@@ -59,7 +59,7 @@ function hint1(){
     if(element.value=="place1"){
         if (check1.checked){
             $('.hint1-img').attr("src","images/image1_1.png");
-            $('.hint2').append("<label class='hint2_label'><input type='checkbox' class='check2' id='check2' name='check'/>ヒント2</label>");
+            $('.hint2').before("<label class='hint2_label'><input type='checkbox' class='check2' id='check2' name='check'/>ヒント2</label>");
             check2 = document.getElementById("check2");
             check2.addEventListener('change', hint2);
         }else{
