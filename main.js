@@ -118,7 +118,7 @@ function hint1(){
 }
 function hint2(){
     if(element.value=="place1"){
-        if (check1.checked){
+        if (check2.checked){
             $('.hint2-img').attr("src","images/image1_2.png");
         }else{
             $('.hint2-img').attr("src","");
