@@ -85,7 +85,7 @@ function hint1(){
         if (check1.checked){
             $('.hint1-img').attr("src","images/image3_1.png");
         }else{
-            $('.hint2_label').remove();
+            $('.hint1-img').attr("src","");
         }
     }else if(element.value=="place4"){
         $('.quiz-img').attr("src","images/image4.png");
