@@ -1,5 +1,9 @@
 function valueChange(){
+    $('.quiz-img').attr("src","");
+    $('.hint1-img').attr("src","");
+    $('.hint2-img').attr("src","");
     $('.hint1_label').remove();
+    $('.hint2_label').remove();
     if(element.value=="place1"){
         $('.quiz-img').attr("src","images/image1.png");
         $('.quiz-txt').text("");
