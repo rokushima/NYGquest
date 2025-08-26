@@ -91,7 +91,6 @@ function hint1(){
         if (check1.checked){
             $('.hint1-img').attr("src","images/image3_1.svg");
         }else{
-            $('.hint1-img').hide();
             $('.hint1-img').attr("src","");
         }
     }else if(element.value=="place4"){
