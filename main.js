@@ -3,7 +3,7 @@ function valueChange(){
     if(element.value=="place1"){
         $('.quiz-img').attr("src","images/image1.png");
         $('.quiz-txt').text("");
-        $('.hint1').before("<label　class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
+        $('.hint1').before("<label class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
         check1 = document.getElementById("check1");
         check1.addEventListener('change', hint1);
     }else if(element.value=="place2"){
@@ -12,7 +12,7 @@ function valueChange(){
     }else if(element.value=="place3"){
         $('.quiz-img').attr("src","images/image3.png");
         $('.quiz-txt').text("");
-        $('.hint1').before("<label　class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
+        $('.hint1').before("<label class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
         check1 = document.getElementById("check1");
         check1.addEventListener('change', hint1);
     }else if(element.value=="place4"){
@@ -39,13 +39,13 @@ function valueChange(){
     }else if(element.value=="place11"){
         $('.quiz-img').attr("src","images/image11.png");
         $('.quiz-txt').text("");
-        $('.hint1').before("<label　class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
+        $('.hint1').before("<label class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
         check1 = document.getElementById("check1");
         check1.addEventListener('change', hint1);
     }else if(element.value=="place12"){
         $('.quiz-img').attr("src","images/image12.png");
         $('.quiz-txt').text("");
-        $('.hint1').before("<label　class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
+        $('.hint1').before("<label class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
         check1 = document.getElementById("check1");
         check1.addEventListener('change', hint1);
     }else if(element.value=="place13"){
@@ -54,13 +54,13 @@ function valueChange(){
     }else if(element.value=="place14"){
         $('.quiz-img').attr("src","images/image14.png");
         $('.quiz-txt').text("");
-        $('.hint1').before("<label　class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
+        $('.hint1').before("<label class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
         check1 = document.getElementById("check1");
         check1.addEventListener('change', hint1);
     }else if(element.value=="place15"){
         $('.quiz-img').attr("src","images/image15.png");
         $('.quiz-txt').text("");
-        $('.hint1').before("<label　class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
+        $('.hint1').before("<label class='hint1_label'><input type='checkbox' id='check1' name='check'/>ヒント1</label>")
         check1 = document.getElementById("check1");
         check1.addEventListener('change', hint1);
     }else if(element.value=="place16"){
