@@ -4,6 +4,7 @@ function valueChange(){
     $('.hint2-img').attr("src","");
     $('.hint1_label').remove();
     $('.hint2_label').remove();
+    $('.quiz-txt').text("");
     if(element.value=="place1"){
         $('.quiz-img').attr("src","images/image1.svg");
         $('.quiz-txt').text("");
