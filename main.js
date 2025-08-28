@@ -232,11 +232,11 @@ $(document).ready(function(){
     img.src = "https://rokushima.github.io/NYGquest/images/image7.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image8.png";
     img.src = "https://rokushima.github.io/NYGquest/images/image10.svg";
-    img.src = "https://rokushima.github.io/NYGquest/images/image11.svg";
+    /*img.src = "https://rokushima.github.io/NYGquest/images/image11.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image11_1.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image11_2.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image12.svg";
-    /*img.src = "https://rokushima.github.io/NYGquest/images/image12_1.svg";
+    img.src = "https://rokushima.github.io/NYGquest/images/image12_1.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image12_2.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image13.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image14.svg";
