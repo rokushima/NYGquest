@@ -222,7 +222,7 @@ let element = document.getElementById('place');
 element.addEventListener('change', valueChange);
 let check1 = document.getElementById("check1");
 let check2 = document.getElementById("check2");
-/*$(document).ready(function(){
+$(document).ready(function(){
     const img = new Image();
 
     img.src = "https://rokushima.github.io/NYGquest/images/image1.svg";
@@ -250,5 +250,4 @@ let check2 = document.getElementById("check2");
     img.src = "https://rokushima.github.io/NYGquest/images/image15_1.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image16.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image17.svg";
-}
-*/
+});
