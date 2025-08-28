@@ -231,6 +231,10 @@ $(document).ready(function(){
     img.src = "https://rokushima.github.io/NYGquest/images/image6.png";
     img.src = "https://rokushima.github.io/NYGquest/images/image7.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image8.png";
+    img.src = "https://rokushima.github.io/NYGquest/images/image10.svg";
+    img.src = "https://rokushima.github.io/NYGquest/images/image11.svg";
+    img.src = "https://rokushima.github.io/NYGquest/images/image11_1.svg";
+    img.src = "https://rokushima.github.io/NYGquest/images/image11_2.svg";
     let element = document.getElementById('place');
     element.addEventListener('change', valueChange);
     let check1 = document.getElementById("check1");
