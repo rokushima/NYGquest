@@ -219,7 +219,7 @@ function hint2(){
     }
 }
 $(document).ready(function(){
-    const img = new Image();
+    /*const img = new Image();
 
     img.src = "https://rokushima.github.io/NYGquest/images/image1.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image1_1.svg";
@@ -232,7 +232,7 @@ $(document).ready(function(){
     img.src = "https://rokushima.github.io/NYGquest/images/image7.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image8.png";
     img.src = "https://rokushima.github.io/NYGquest/images/image10.svg";
-    /*img.src = "https://rokushima.github.io/NYGquest/images/image11.svg";
+    img.src = "https://rokushima.github.io/NYGquest/images/image11.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image11_1.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image11_2.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image12.svg";
