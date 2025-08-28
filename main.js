@@ -27,13 +27,13 @@ function valueChange(){
         $('.quiz-img').attr("src","images/image5.svg");
         $('.quiz-txt').text("");
     }else if(element.value=="place6"){
-        $('.quiz-img').attr("src","images/image6.svg");
+        $('.quiz-img').attr("src","images/image6.png");
         $('.quiz-txt').text("");
     }else if(element.value=="place7"){
         $('.quiz-img').attr("src","images/image7.svg");
         $('.quiz-txt').text("");
     }else if(element.value=="place8"){
-        $('.quiz-img').attr("src","images/image8.svg");
+        $('.quiz-img').attr("src","images/image8.png");
         $('.quiz-txt').text("");
     }else if(element.value=="place9"){
         $('.quiz-img').attr("src","");
