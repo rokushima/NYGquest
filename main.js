@@ -218,9 +218,14 @@ function hint2(){
         $('.quiz-txt').text("");
     }
 }
-let element = document.getElementById('place');
-element.addEventListener('change', valueChange);
-let check1 = document.getElementById("check1");
-let check2 = document.getElementById("check2");
-
+$(document).ready(function(){
+    const img = new Image();
+    img.src = "https://rokushima.github.io/NYGquest/images/image6.png"
+    const img1 = new Image();
+    img1.src = "https://rokushima.github.io/NYGquest/images/image8.png"
+    let element = document.getElementById('place');
+    element.addEventListener('change', valueChange);
+    let check1 = document.getElementById("check1");
+    let check2 = document.getElementById("check2");
+}
 
