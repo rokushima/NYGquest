@@ -246,6 +246,7 @@ $(document).ready(function(){
     img.src = "https://rokushima.github.io/NYGquest/images/image15_1.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image16.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image17.svg";
+    
     let element = document.getElementById('place');
     element.addEventListener('change', valueChange);
     let check1 = document.getElementById("check1");
