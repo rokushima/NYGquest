@@ -93,24 +93,6 @@ function hint1(){
         }else{
             $('.hint1-img').attr("src","");
         }
-    }else if(element.value=="place4"){
-        $('.quiz-img').attr("src","images/image4.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place5"){
-        $('.quiz-img').attr("src","images/image5.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place6"){
-        $('.quiz-img').attr("src","images/image6.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place7"){
-        $('.quiz-img').attr("src","images/image7.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place8"){
-        $('.quiz-img').attr("src","images/image8.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place10"){
-        $('.quiz-img').attr("src","images/image10.svg");
-        $('.quiz-txt').text("");
     }else if(element.value=="place11"){
         if (check1.checked){
             $('.hint1-img').attr("src","images/image11_1.svg");
@@ -150,42 +132,19 @@ function hint1(){
         }else{
             $('.hint1-img').attr("src","");
         }
-    }else if(element.value=="place16"){
-        $('.quiz-img').attr("src","images/image16.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place17"){
-        $('.quiz-img').attr("src","images/image17.svg");
-        $('.quiz-txt').text("");
     }
 }
 function hint2(){
     if(element.value=="place1"){
         if (check2.checked){
             $('.hint2-img').attr("src","images/image1_2.svg");
+            $('.hint3').before("<label class='hint3_label'><input type='checkbox' class='check3' id='check3' name='check'/>ヒント3</label>");
+            check3 = document.getElementById("check3");
+            check3.addEventListener('change', hint3);
         }else{
             $('.hint2-img').attr("src","");
+            $('.hint3_label').remove();
         }
-    }else if(element.value=="place3"){
-        $('.quiz-img').attr("src","images/image3.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place4"){
-        $('.quiz-img').attr("src","images/image4.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place5"){
-        $('.quiz-img').attr("src","images/image5.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place6"){
-        $('.quiz-img').attr("src","images/image6.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place7"){
-        $('.quiz-img').attr("src","images/image7.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place8"){
-        $('.quiz-img').attr("src","images/image8.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place10"){
-        $('.quiz-img').attr("src","images/image10.svg");
-        $('.quiz-txt').text("");
     }else if(element.value=="place11"){
         if (check2.checked){
             $('.hint2-img').attr("src","images/image11_2.svg");
@@ -198,26 +157,24 @@ function hint2(){
         }else{
             $('.hint2-img').attr("src","");
         }
-    }else if(element.value=="place13"){
-        $('.quiz-img').attr("src","images/image13.svg");
-        $('.quiz-txt').text("");
     }else if(element.value=="place14"){
         if (check2.checked){
             $('.hint2-img').attr("src","images/image14_2.svg");
         }else{
             $('.hint2-img').attr("src","");
         }
-    }else if(element.value=="place15"){
-        $('.quiz-img').attr("src","images/image15.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place16"){
-        $('.quiz-img').attr("src","images/image16.svg");
-        $('.quiz-txt').text("");
-    }else if(element.value=="place17"){
-        $('.quiz-img').attr("src","images/image17.svg");
-        $('.quiz-txt').text("");
     }
 }
+function hint3(){
+    if(element.value=="place1"){
+        if (check3.checked){
+            $('.hint3-img').attr("src","images/image1_3.svg");
+        }else{
+            $('.hint3-img').attr("src","");
+        }
+    }
+}
+
 let element = document.getElementById('place');
 element.addEventListener('change', valueChange);
 let check1 = document.getElementById("check1");
@@ -228,6 +185,7 @@ $(document).ready(function(){
     img.src = "https://rokushima.github.io/NYGquest/images/image1.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image1_1.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image1_2.svg";
+    img.src = "https://rokushima.github.io/NYGquest/images/image1_3.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image3.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image3_1.svg";
     img.src = "https://rokushima.github.io/NYGquest/images/image4.svg";
